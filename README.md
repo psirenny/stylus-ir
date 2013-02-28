@@ -1,7 +1,7 @@
 Stylus IR
 =================
 
-Adds support for several image replacement techniques with the css mixin "ir".
+Adds stylus mixing "ir" supporting several image replacement techniques.
 
     .logo {
       ir: h5bp;
