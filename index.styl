@@ -1,6 +1,5 @@
 @import "./lib"
 
-ir(type)
-  if (type == none) return
-  if (type == auto) type = h5bp
-  ir-{type}()
+ir(url=none, width=none, height=width, type=h5bp)
+  unless type == none
+    ir-{type} url width height

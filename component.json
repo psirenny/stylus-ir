@@ -4,5 +4,15 @@
   "main": "index.styl",
   "ignore": [
     "**/.*"
-  ]
+  ],
+  "gitHead": "3e2065b539d68fe3c1793d8dc493fed3d2f68ccd",
+  "readme": "stylus-ir\r\n=================\r\n\r\nAdds stylus mixin \"ir\" supporting several [image replacement techniques](http://css-tricks.com/examples/ImageReplacement/).\r\n\r\n    .logo {\r\n      ir: h5bp;\r\n    }\r\n",
+  "readmeFilename": "README.md",
+  "_id": "stylus-ir@0.0.0",
+  "description": "stylus-ir\r =================",
+  "commit": "3e2065b539d68fe3c1793d8dc493fed3d2f68ccd",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/psirenny/stylus-ir.git"
+  }
 }

@@ -1,8 +1,11 @@
-ir-nir()
+ir-nir(url=none, width=none, height=width)
+  unless (height == none) { height height }
   margin 0
   overflow hidden
   padding 0
+  unless (width == none) { width width }
   &:before
+    unless (url == none) { content url }
     display inline-block
     font-size 0
     line-height 0
